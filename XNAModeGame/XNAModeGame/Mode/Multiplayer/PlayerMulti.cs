@@ -157,7 +157,7 @@ namespace XNAMode
 
             //if (controller == PlayerIndex.One) Console.WriteLine("_recMode: " + _rec.ToString() + " frameCount: " + frameCount);
 
-            if (FlxG.gamepads.isNewButtonPress(Buttons.LeftShoulder, controller, out pi))
+            if (FlxG.gamepads.isNewButtonPress(Buttons.LeftShoulder, controller, out pi) || FlxG.keys.justPressed(Keys.J))
             {
                 if (_rec == Recording.None)
                 {
@@ -188,7 +188,7 @@ namespace XNAMode
 
 
             }
-            if (FlxG.gamepads.isButtonDown(Buttons.LeftStick, controller, out pi))
+            if (FlxG.gamepads.isButtonDown(Buttons.LeftStick, controller, out pi) || FlxG.keys.justPressed(Keys.K))
             {
 
                 _rec = Recording.Recording ;

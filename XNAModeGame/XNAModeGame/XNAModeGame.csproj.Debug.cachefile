@@ -121,9 +121,9 @@ Content\initials\SpaceMarine.xnb
 Content\fx\BloomCombine.xnb
 Content\fx\BloomExtract.xnb
 Content\fx\GaussianBlur.xnb
-Mode\Rec\FourPlayerData.txt
-Mode\Rec\OnePlayerData.txt
-Mode\Rec\ThreePlayerData.txt
-Mode\Rec\TwoPlayerData.txt
+Rec\FourPlayerData.txt
+Rec\OnePlayerData.txt
+Rec\ThreePlayerData.txt
+Rec\TwoPlayerData.txt
 Mode\level1.oel
 Mode\ModeProject.oep
