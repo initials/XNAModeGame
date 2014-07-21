@@ -95,16 +95,16 @@
     <Content Include="GameThumbnail.png">
       <XnaPlatformSpecific>true</XnaPlatformSpecific>
     </Content>
-    <Content Include="Mode\Rec\FourPlayerData.txt">
+    <Content Include="Rec\FourPlayerData.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Mode\Rec\OnePlayerData.txt">
+    <Content Include="Rec\OnePlayerData.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Mode\Rec\ThreePlayerData.txt">
+    <Content Include="Rec\ThreePlayerData.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Mode\Rec\TwoPlayerData.txt">
+    <Content Include="Rec\TwoPlayerData.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
