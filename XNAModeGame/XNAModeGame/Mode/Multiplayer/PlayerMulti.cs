@@ -198,11 +198,11 @@ namespace XNAMode
                
             }
 
-            if (FlxG.gamepads.isButtonDown(Buttons.RightStick, controller, out pi))
+            if (FlxG.gamepads.isButtonDown(Buttons.RightStick, controller, out pi) || FlxG.keys.justPressed(Keys.L) )
             {
                 _history = new List<float[]>();
 
-                string x = FlxU.loadFromDevice(controller.ToString() + "PlayerData.txt");
+                string x = FlxU.loadFromDevice("Rec/" + controller.ToString() + "PlayerData.txt");
 
                 string[] y = x.Split('\n');
 
