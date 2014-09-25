@@ -77,6 +77,7 @@
     <Compile Include="Mode\BotBullet.cs" />
     <Compile Include="Mode\Bullet.cs" />
     <Compile Include="Mode\MenuState.cs" />
+    <Compile Include="Mode\Mode_Globals.cs" />
     <Compile Include="Mode\Multiplayer\BulletMulti.cs" />
     <Compile Include="Mode\Multiplayer\PlayerMulti.cs" />
     <Compile Include="Mode\Multiplayer\PlayStateMulti.cs" />
